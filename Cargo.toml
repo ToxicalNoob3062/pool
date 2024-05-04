@@ -5,5 +5,6 @@ edition = "2021"
 license = "MIT"
 description = "A simple, efficient thread pool for Rust.❤️"
 documentation = "https://docs.rs/rahat3062_pool/0.1.0/rahat3062_pool/"
+exclude = ["src/bin/*"]
 
 [dependencies]
