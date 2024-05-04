@@ -1,8 +1,9 @@
 [package]
-name = "server"
+name = "rahat3062_pool"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+description = "A simple, efficient thread pool for Rust.❤️"
+documentation = "https://docs.rs/rahat3062_pool/0.1.0/rahat3062_pool/"
 
 [dependencies]

@@ -1,4 +1,5 @@
-use server::ThreadPool;
+//lets create a simple web server that listens to incoming connections and sends a response
+use rahat3062_pool::ThreadPool;
 use std::{
     fs,
     io::prelude::*,
@@ -12,7 +13,7 @@ fn main() {
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
 
     //create a new threadpool instance
-    let pool = ThreadPool::new(4);
+    let pool = ThreadPool::new(4, true);
 
     //loop through the incoming connections
     for stream in listener.incoming() {
